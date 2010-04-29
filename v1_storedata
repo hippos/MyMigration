@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>846D6024-1C5F-4C80-96AF-FD5C69BED3CA</UUID>
+        <nextObjectID>104</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>251</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>AddressBook</key>
+                        <data>
+		xsRr3be3AYy1bApVL5v2kob66uXcEyPmAZeax8/Ie2c=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array></array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="ADDRESSBOOK" id="z102">
+        <attribute name="phone2" type="string">090-1234-5678</attribute>
+        <attribute name="zipcode" type="string">1234567</attribute>
+        <attribute name="sex" type="int16">1</attribute>
+        <attribute name="lastname" type="string">太郎</attribute>
+        <attribute name="firstname" type="string">浦島</attribute>
+        <attribute name="age" type="int16">110</attribute>
+        <attribute name="addr2" type="string">3丁目</attribute>
+        <attribute name="addr1" type="string">浦島</attribute>
+    </object>
+    <object type="ADDRESSBOOK" id="z103">
+        <attribute name="zipcode" type="string">1234567</attribute>
+        <attribute name="sex" type="int16">1</attribute>
+        <attribute name="phone2" type="string">090-111-9999</attribute>
+        <attribute name="phone1" type="string">123-4567-7891</attribute>
+        <attribute name="lastname" type="string">太郎</attribute>
+        <attribute name="firstname" type="string">桃</attribute>
+        <attribute name="age" type="int16">10</attribute>
+        <attribute name="addr2" type="string">一丁目</attribute>
+        <attribute name="addr1" type="string">鬼ヶ島</attribute>
+    </object>
+    <object type="ADDRESSBOOK" id="z104">
+        <attribute name="zipcode" type="string">001001</attribute>
+        <attribute name="sex" type="int16">1</attribute>
+        <attribute name="lastname" type="string">法師</attribute>
+        <attribute name="firstname" type="string">一寸</attribute>
+        <attribute name="age" type="int16">20</attribute>
+        <attribute name="addr2" type="string">四条河原</attribute>
+        <attribute name="addr1" type="string">京都</attribute>
+    </object>
+</database>

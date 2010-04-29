@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		77C8280E06725ACE000B614F /* MyMigration_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* MyMigration_AppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A2037C591186FADA00493EC9 /* v1_to_v2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = A2037C581186FADA00493EC9 /* v1_to_v2.xcmappingmodel */; };
+		A2176D4A118945D4001232C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		A2176D4B118945D4001232C9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		A2176D4C118945D4001232C9 /* v1_storedata in Resources */ = {isa = PBXBuildFile; fileRef = A2B939AA1186C68100BF8155 /* v1_storedata */; };
+		A2176D4E118945D4001232C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		A2176D4F118945D4001232C9 /* MyMigration_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* MyMigration_AppDelegate.m */; };
+		A2176D50118945D4001232C9 /* MyMigration_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2B93A0B1186D3F500BF8155 /* MyMigration_DataModel.xcdatamodeld */; };
+		A2176D51118945D4001232C9 /* valueTransformerSex.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B9386F118691FD00BF8155 /* valueTransformerSex.m */; };
+		A2176D53118945D4001232C9 /* v1_to_v2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = A2037C581186FADA00493EC9 /* v1_to_v2.xcmappingmodel */; };
+		A2176D54118945D4001232C9 /* AddressBookToPhoneBook.m in Sources */ = {isa = PBXBuildFile; fileRef = A219272F118777E30091E93C /* AddressBookToPhoneBook.m */; };
+		A2176D56118945D4001232C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A2192730118777E30091E93C /* AddressBookToPhoneBook.m in Sources */ = {isa = PBXBuildFile; fileRef = A219272F118777E30091E93C /* AddressBookToPhoneBook.m */; };
+		A2B93870118691FD00BF8155 /* valueTransformerSex.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B9386F118691FD00BF8155 /* valueTransformerSex.m */; };
+		A2B939AB1186C68100BF8155 /* v1_storedata in Resources */ = {isa = PBXBuildFile; fileRef = A2B939AA1186C68100BF8155 /* v1_storedata */; };
+		A2B93A0C1186D3F500BF8155 /* MyMigration_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2B93A0B1186D3F500BF8155 /* MyMigration_DataModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MyMigration_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMigration_Prefix.pch; sourceTree = "<group>"; };
+		770B37EC0679A11B001EADE2 /* MyMigration_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = MyMigration_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* MyMigration_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMigration_AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* MyMigration_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMigration_AppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MyMigration-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "MyMigration-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MyMigration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMigration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2037C581186FADA00493EC9 /* v1_to_v2.xcmappingmodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcmappingmodel; path = v1_to_v2.xcmappingmodel; sourceTree = "<group>"; };
+		A2176D5B118945D4001232C9 /* MyMigration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMigration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2176D5D118945D4001232C9 /* MyMigration-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyMigration-Info copy.plist"; sourceTree = "<group>"; };
+		A219272E118777E30091E93C /* AddressBookToPhoneBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookToPhoneBook.h; sourceTree = "<group>"; };
+		A219272F118777E30091E93C /* AddressBookToPhoneBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookToPhoneBook.m; sourceTree = "<group>"; };
+		A2B9386E118691FD00BF8155 /* valueTransformerSex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = valueTransformerSex.h; sourceTree = "<group>"; };
+		A2B9386F118691FD00BF8155 /* valueTransformerSex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = valueTransformerSex.m; sourceTree = "<group>"; };
+		A2B939AA1186C68100BF8155 /* v1_storedata */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = v1_storedata; sourceTree = "<group>"; };
+		A2B93A0D1186D3F500BF8155 /* MyMigration_DataModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MyMigration_DataModel 2.xcdatamodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2176D55118945D4001232C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2176D56118945D4001232C9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				77C8280B06725ACE000B614F /* MyMigration_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* MyMigration_AppDelegate.m */,
+				A2B9386E118691FD00BF8155 /* valueTransformerSex.h */,
+				A2B9386F118691FD00BF8155 /* valueTransformerSex.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MyMigration.app */,
+				A2176D5B118945D4001232C9 /* MyMigration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MyMigration */ = {
+			isa = PBXGroup;
+			children = (
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MyMigration;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MyMigration_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2B939AA1186C68100BF8155 /* v1_storedata */,
+				8D1107310486CEB800E47090 /* MyMigration-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+				A2176D5D118945D4001232C9 /* MyMigration-Info copy.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2B93A0B1186D3F500BF8155 /* MyMigration_DataModel.xcdatamodeld */,
+				A2037C581186FADA00493EC9 /* v1_to_v2.xcmappingmodel */,
+				A219272E118777E30091E93C /* AddressBookToPhoneBook.h */,
+				A219272F118777E30091E93C /* AddressBookToPhoneBook.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* MyMigration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "MyMigration" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMigration;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MyMigration;
+			productReference = 8D1107320486CEB800E47090 /* MyMigration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2176D48118945D4001232C9 /* MyMigration_v1_to_v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2176D58118945D4001232C9 /* Build configuration list for PBXNativeTarget "MyMigration_v1_to_v2" */;
+			buildPhases = (
+				A2176D49118945D4001232C9 /* Resources */,
+				A2176D4D118945D4001232C9 /* Sources */,
+				A2176D55118945D4001232C9 /* Frameworks */,
+				A2176D57118945D4001232C9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMigration_v1_to_v2;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MyMigration;
+			productReference = A2176D5B118945D4001232C9 /* MyMigration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "MyMigration" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MyMigration */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MyMigration */,
+				A2176D48118945D4001232C9 /* MyMigration_v1_to_v2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				A2B939AB1186C68100BF8155 /* v1_storedata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2176D49118945D4001232C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2176D4A118945D4001232C9 /* InfoPlist.strings in Resources */,
+				A2176D4B118945D4001232C9 /* MainMenu.xib in Resources */,
+				A2176D4C118945D4001232C9 /* v1_storedata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2176D57118945D4001232C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ! -e ${HOME}/Library/Application\\ Support/${PRODUCT_NAME} ] ; then\n\tmkdir ${HOME}/Library/Application\\ Support/${PRODUCT_NAME}\nfi\nif [ -f ${HOME}/Library/Application\\ Support/${PRODUCT_NAME}/storedata ] ; then\n\trm ${HOME}/Library/Application\\ Support/${PRODUCT_NAME}/storedata\nfi\n\ncp ${PROJECT_DIR}/v1_storedata  ${HOME}/Library/Application\\ Support/${PRODUCT_NAME}/storedata";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* MyMigration_AppDelegate.m in Sources */,
+				A2B93A0C1186D3F500BF8155 /* MyMigration_DataModel.xcdatamodeld in Sources */,
+				A2B93870118691FD00BF8155 /* valueTransformerSex.m in Sources */,
+				A2037C591186FADA00493EC9 /* v1_to_v2.xcmappingmodel in Sources */,
+				A2192730118777E30091E93C /* AddressBookToPhoneBook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2176D4D118945D4001232C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2176D4E118945D4001232C9 /* main.m in Sources */,
+				A2176D4F118945D4001232C9 /* MyMigration_AppDelegate.m in Sources */,
+				A2176D50118945D4001232C9 /* MyMigration_DataModel.xcdatamodeld in Sources */,
+				A2176D51118945D4001232C9 /* valueTransformerSex.m in Sources */,
+				A2176D53118945D4001232C9 /* v1_to_v2.xcmappingmodel in Sources */,
+				A2176D54118945D4001232C9 /* AddressBookToPhoneBook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F7446970DB6B7EA00F9684A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7446980DB6B7EA00F9684A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyMigration_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = __DEBUG;
+				INFOPLIST_FILE = "MyMigration-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MyMigration;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyMigration_Prefix.pch;
+				INFOPLIST_FILE = "MyMigration-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MyMigration;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		A2176D59118945D4001232C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyMigration_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = __DEBUG;
+				INFOPLIST_FILE = "MyMigration-Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MyMigration;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2176D5A118945D4001232C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyMigration_Prefix.pch;
+				INFOPLIST_FILE = "MyMigration-Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MyMigration;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "MyMigration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "MyMigration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2176D58118945D4001232C9 /* Build configuration list for PBXNativeTarget "MyMigration_v1_to_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2176D59118945D4001232C9 /* Debug */,
+				A2176D5A118945D4001232C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2B93A0B1186D3F500BF8155 /* MyMigration_DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* MyMigration_DataModel.xcdatamodel */,
+				A2B93A0D1186D3F500BF8155 /* MyMigration_DataModel 2.xcdatamodel */,
+			);
+			currentVersion = A2B93A0D1186D3F500BF8155 /* MyMigration_DataModel 2.xcdatamodel */;
+			path = MyMigration_DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
